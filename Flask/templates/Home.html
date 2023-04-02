@@ -1,0 +1,7 @@
+{{%extends "layout.html"%}}
+{{%block content%}}
+    {%for post in posts%}
+        <h1>{{post.Name}}</h1>
+        <p>He is {{post.Age}} years old and he is a {{post.Profession}} by profession.</p>
+    {%endfor%}
+{{%endblock content%}}
